@@ -2,6 +2,8 @@
 This is a demo that explains a simple HTTP server built with Node.js and TypeScript. It serves mock data, demonstrates how interfaces are used for type safety, and shows asynchronous file reading in action.
 # TypeScript HTTP Server Demo
 
+# TypeScript HTTP Server Demo
+
 This project is a simple HTTP server built with **Node.js** and **TypeScript**. It demonstrates:
 
 - Serving **mock data** via HTTP routes
@@ -24,9 +26,23 @@ This project is a simple HTTP server built with **Node.js** and **TypeScript**. 
 
 3. **Mock Data**
    - Stored in `src/data/users.json`.
-   - Example:
-   ```json
-   [
-     { "id": 1, "name": "Alice", "email": "alice@example.com" },
-     { "id": 2, "name": "Bob", "email": "bob@example.com" }
-   ]
+   - Actual mock data:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Haimanot",
+    "email": "haimanot@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "Abel",
+    "email": "abel@gmail.com"
+  },
+  {
+    "id": 3,
+    "name": "Sara",
+    "email": "sara@gmail.com"
+  }
+]
